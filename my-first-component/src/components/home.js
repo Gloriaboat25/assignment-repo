@@ -4,6 +4,7 @@ import Checkbox from '../components/checkbox'
 import Select from '../components/select'
 import Radiobutton from '../components/radiobutton'
 import Testarea from '../components/testarea'
+import Typography from '../components/typography'
 
 
 function Home(){
@@ -21,6 +22,7 @@ function Home(){
             <Select/>
             <Radiobutton/>
             <Testarea text="This is my school"/>
+            <Typography text="This is my school"/>
             
 
             

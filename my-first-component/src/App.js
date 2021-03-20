@@ -1,8 +1,8 @@
 // import logo from './logo.svg';
 // import './App.css';
-import Home from './components/home'
-import Form from './components/form'
-
+// import Home from './components/home'
+// import Form from './components/form'
+import Signup from './signup/signup';
 
 function App() {
   return (
@@ -21,8 +21,9 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <Home/>
-      <Form/>
+      {/* <Home/>
+      <Form/> */}
+      <Signup/>
       
      
     

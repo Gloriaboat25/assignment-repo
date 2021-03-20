@@ -1,0 +1,38 @@
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.form-wrapper{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 10px;
+    background-color:pink;
+}
+.form-group{
+    margin-bottom: 15px;
+    
+}
+.login-btn{
+    color: black;
+    background-color: wheat;
+
+}
+.form-control{
+    border-radius: 5px;
+    font-size:medium;
+    margin-left: 2px;
+    flex-wrap: wrap;
+    padding: 2px 2px;
+} 
+.style{
+    text-decoration: none;
+    font-size: medium;
+} 
