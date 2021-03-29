@@ -1,0 +1,39 @@
+
+
+.wrapper{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../images/form2.jpg');
+    background-color:red;
+}
+.formwrapper{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color:white;
+    box-shadow: black 10px -10px ;
+
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-top: 5px ;
+    
+}
+.button{
+    padding: 5px 5px;
+    margin-top: 5px;
+}
+.pic{
+    width: 100px;
+    height: 70px;
+    border-radius: 25px;
+}
