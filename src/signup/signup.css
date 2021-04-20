@@ -1,0 +1,17 @@
+
+.login-btn{
+    color: black;
+    background-color: wheat;
+
+}
+.form-control{
+    border-radius: 5px;
+    font-size:medium;
+    margin-left: 2px;
+    flex-wrap: wrap;
+    padding: 2px 2px;
+} 
+.style{
+    text-decoration: none;
+    font-size: medium;
+} 
