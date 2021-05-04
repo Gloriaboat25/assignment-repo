@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.BurgerIngredients{
+    /* background-color: brown; */
+    /* height: 100px; */
+    /* width: 100%; */
+    /* overflow: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.burgerIngredients p{
+    text-align: center;
+    
+}
+.Block{
+    background-color: #f4b46c;
+    margin: 30px auto o;
+    display: table;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 3px;
+    padding: 20px;
+    /* margin-left: 400px; */
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    /* justify-content: center; */
+}
+.Block p{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ingrBtns{
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ingrBtn{
+    border: 0;
+    background-color:wheat;
+    padding: 5px;
+    cursor: pointer;
+    display: table;
+    width: 95px;
+}
+.breadTop{
+    background-image: url(../assets/top.jpg);
+    /* background-color: blue; */
+    background-size: 300px;
+    height: 110px;
+    width: 100%;
+    align-self: center;
+    display: table;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* background-size: 100% 100%; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+}
+.new{
+    background-image: url(../assets/taste.jpg);
+}
+.breadDown{
+    background-image: url(../assets/bottom.jpg);
+    /* background-color: brown; */
+    background-size: 300px;
+    height: 60px;
+    width: 100%;
+    display: table;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.nav{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-between;
+    /* align-content: space-evenly; */
+
+
+}
+
+.navleft{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.navright {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+justify-content: space-evenly;
+}
+a {
+text-decoration: none;
+}
+
+.navrightitems {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.navlftitems {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+}
+.style{
+    text-decoration: none;
+    font-size: medium;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 5px;
+}

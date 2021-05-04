@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.maincontainer {
+    display: flex;
+    height: 100vh;
+    background-color: dodgerblue;
+    background-image: url('../assets/sign3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+}
+.branch{
+    display: flex;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    padding: 20px 40px;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 50px rgb(128, 128, 128) ;
+}
+.myinputfields{
+    /* padding-top:  10px ;
+    padding-bottom: 5px;
+    padding-left: 2px;
+    padding-right: 40px;
+    border-radius: 5px;
+    margin-top: 15px; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size:0.6em ;
+    margin-bottom:0.25em ;
+    padding: 10px 10px ;
+    outline: none;
+    border-radius:5px  ;
+    /* margin-top: 15px; */
+
+    
+    /* border-style: double;
+    border-width: 2px;
+    border-color: gray; */
+    border: 2px double gray;
+
+}
+.h1{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.myinputfields::placeholder{
+    font-size: 1.2em;
+    font-weight: lighter;
+}
+/* .lastName{
+    margin-right: 1%; */
+
+.buttsign{
+    background-color: blueviolet;
+    color: black;
+    border: 2px solid wheat;
+    width: 100%;
+    margin-top: 1em;
+    padding: 5px, 0px;
+    font-size: 1em;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-bottom: 0.25;
+    border-radius: 2px;
+    padding-top: 2px  ;
+    padding-bottom: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.buttsign:hover{
+    color: aliceblue;
+    background-color: aquamarine;
+    border: 2px solid  gray;
+
+}
+.buttsign2{
+    color: indianred;
+    font-weight: lighter;
+}
+.logbranch{
+    display: flex;
+    height: 300px;
+    width: 350px;
+    background-color:white;
+    flex-direction: column;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.mainbran{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100vh;
+    background-color: rgba(0, 0, 255, 0.596);
+ 
+
+}
+.style1{
+    background-color: rgba(255, 0, 0, 0.61);
+    border-radius: 15px;
+    margin-left: 930px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding: 5px 15px;
+    /* margin: 10px; */
+    
+}
+.style3{
+    /* display: flex; */
+    height: 100vh;
+    background-image: url('../assets/we2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.style7{
+    background-color: whitesmoke ;
+    /* height: 5vh; */
+    /* display: inline; */
+    /* margin-left: 50px; */
+    align-items: center;
+    justify-content: center;
+
+}
+.style8{
+   
+    margin-bottom: 5px;
+    
+}
+@media screen and (max-width: 600px) {
+.style7{background-color: violet;}
+}
