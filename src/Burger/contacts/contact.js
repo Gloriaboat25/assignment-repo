@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import { useHistory } from "react-router-dom"
 import Inputfield from "./inputfield"
+import Navbar from '../../landingpage/Navbar'
 import './inputfield.css';
 import Button from "./button"
 function Contact() {
@@ -18,11 +19,27 @@ function Contact() {
         e.preventDefault()
     }
 
+    let json_object = JSON.stringify({values})
+
+    fetch('http://localhost:4000/login',{method:'post',
+        // body: JSON.stringify({username: user_name, password: pass_word}),
+        body:json_object,
+        headers: {
+         "Content-Type": "application/json"
+        }
+    
+    })
+    .then(response =>response.json())
+    .then(data => {
+        console.log(data);
+    })
+
 
 
 
     return (
         <div className="wrapper">
+            <Navbar/>
             
             <div className="form-wrapper">
 

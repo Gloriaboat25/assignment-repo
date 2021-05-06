@@ -53,7 +53,7 @@
     width: 95px;
 }
 .breadTop{
-    background-image: url(../assets/top.jpg);
+    background-image: url(../assets/beadtop.png);
     /* background-color: blue; */
     background-size: 300px;
     height: 110px;
@@ -70,7 +70,7 @@
     background-image: url(../assets/taste.jpg);
 }
 .breadDown{
-    background-image: url(../assets/bottom.jpg);
+    background-image: url(../assets/beaddown.png);
     /* background-color: brown; */
     background-size: 300px;
     height: 60px;

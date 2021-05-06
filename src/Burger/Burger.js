@@ -1,9 +1,11 @@
 import React from 'react'
-import { useState } from 'react'
+import { useState , useEffect } from 'react'
 import { useHistory } from "react-router-dom"
-import lett from "../assets/lettuse.jpg"
-import toma from "../assets/tomato.jpg"
-import mean from "../assets/meat.jpg"
+import './Burger.css'
+import Navbar from '../landingpage/Navbar'
+import lett from "../assets/lett.png"
+import toma from "../assets/toma.png"
+import mean from "../assets/meat.png"
     
 
 
@@ -36,6 +38,12 @@ import mean from "../assets/meat.jpg"
       
     const submitcheese = (e)=>{
         setCheese (cheese + 1)
+        e.preventDefault()
+    }
+
+       
+    const removecheese = (e)=>{
+        setCheese (cheese - 1)
         e.preventDefault()
     }
        
@@ -80,7 +88,7 @@ function goToPage(path){
     history.push(path)
 }
 
-addR
+
 
 
 
@@ -88,6 +96,7 @@ addR
 
 return(
     <div className="new">
+        <Navbar/>
         <div className="BurgerIngredients">
 
             <div>

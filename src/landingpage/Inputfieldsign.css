@@ -3,10 +3,10 @@
     padding: 0;
 }
 .maincontainer {
-    display: flex;
+    /* display: flex; */
     height: 100vh;
     background-color: dodgerblue;
-    background-image: url('../assets/sign3.jpg');
+    background-image: url('../assets/sign2.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     align-items: center;
@@ -16,13 +16,14 @@
     display: flex;
     height: 450px;
     width: 350px;
-    background-color: white;
+    background-color:rgb(226, 64, 64) ;
     padding: 20px 40px;
     flex-direction: column;
     border-radius: 15px;
     align-items: center;
     justify-content: center;
     box-shadow: 0px 10px 50px rgb(128, 128, 128) ;
+    margin-left: 300px;
 }
 .myinputfields{
     /* padding-top:  10px ;
@@ -98,49 +99,143 @@
     justify-content: center;
  
 }
+
+
+
 .mainbran{
     align-items: center;
     justify-content: center;
     display: flex;
     height: 100vh;
-    background-color: rgba(0, 0, 255, 0.596);
+    /* background-color: rgba(0, 0, 255, 0.596); */
+    /* height: 100vh; */
+    background-color: dodgerblue;
+    background-image: url('../assets/sign3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-items: center;
+    justify-content: center;
  
 
 }
-.style1{
-    background-color: rgba(255, 0, 0, 0.61);
-    border-radius: 15px;
-    margin-left: 930px;
-    margin-top: 2px;
-    margin-bottom: 2px;
-    padding: 5px 15px;
-    /* margin: 10px; */
-    
+.Navbar{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
 }
-.style3{
+button:hover{
+    cursor: pointer;
+}
+.Navbar .leftSide{
+    flex: 50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Navbar .leftSide button{
+    display: none;
+    margin-left: 20px;
+}
+.Navbar .leftSide #hidden {
+    display: flex;
+    margin-left: 20px;
+}
+
+
+
+ .rightSide{
+    flex: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 25px;
+}
+.me{
+    width: 220px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding-left: 15px;
+    color: black;
+}
+.ch{
+    height: 32px;
+    width: 70px;
+    font-size: 16px;
+    border-radius: 6px;
+   
+}
+.style1{
+    height: 32px;
+    width: 70px;
+    font-size: 16px;
+    margin-left: 12px;
+    border-radius: 6px;
+    padding-left: 6px;
+    padding-right: 3px;
+
+}
+.ground{
     /* display: flex; */
     height: 100vh;
+    background-color: dodgerblue;
     background-image: url('../assets/we2.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     align-items: center;
     justify-content: center;
-
 }
-.style7{
-    background-color: whitesmoke ;
-    /* height: 5vh; */
-    /* display: inline; */
-    /* margin-left: 50px; */
-    align-items: center;
-    justify-content: center;
 
+
+
+.Navbar .leftSide .mac {
+    max-height: 80px;
 }
-.style8{
-   
-    margin-bottom: 5px;
+.Navbar .leftSide .mac a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/* .bu{
+    flex ;
+    padding: 6px;
+    border-radius: 6px;
+    margin-top: 6px;
+} */
+.logo{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    margin-left: 50px;
+}
+@media screen and (max-width: 850px) {
+    .Navbar .leftSide .mac a{
+        font-size: 20px;
+
+
+    }
     
 }
-@media screen and (max-width: 600px) {
-.style7{background-color: violet;}
+@media screen and (max-width: 750px) {
+    .Navbar .leftSide .mac a{
+        font-size: 15px;
+
+
+    }
+}
+@media screen and (max-width: 650px) {
+    .Navbar .leftSide button{
+        display: flex;
+    }
+    .Navbar .leftSide .mac {
+        display: none;
+
+
+    }
+    
 }
