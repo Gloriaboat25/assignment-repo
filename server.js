@@ -4,8 +4,6 @@ const connectDB = require('./db')
 const dotenv =  require('dotenv')
 const cors = require('cors')
 const routesUrl =  require("./routes/routes")
-const passport = require('passport')
-const LocalStrategy = require('passport-local');
 // specificing a port 
 const port = 4000;
 
